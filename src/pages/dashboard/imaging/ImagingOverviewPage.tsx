@@ -4,7 +4,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { PageHeader } from "@/components/dashboard/PageHeader";
-import { PageHeader as _ } from "@/components/dashboard/PageHeader";
 import { useScans, useRealtimeScans, useScanAppointments } from "@/hooks/scan/useScan";
 import { useOrg } from "@/hooks/useOrg";
 import { Scan as ScanIcon, Clock, CheckCircle2, CalendarDays, Plus } from "lucide-react";
